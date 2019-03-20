@@ -1,0 +1,12 @@
+<div> Containers </div>
+
+<table>
+<% @containers.each do |container| %>
+  <tr>
+    <td>Name:</td>
+    <td><%= container[:name] %></td>
+    <td>Status:</td>
+    <td><%= container[:status] %></td>
+  </tr>
+<% end %>
+</table>
